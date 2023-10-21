@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cube.CubeController">
+   <tabs>
+      <Tab closable="false" text="CubeSize">
+         <content>
+            <VBox spacing="10.0">
+                  <Label text="X-Size">
+                  </Label>
+               <Slider>
+
+               </Slider>
+
+         </VBox>
+         </content>
+      </Tab>
+   </tabs>
+</TabPane>
